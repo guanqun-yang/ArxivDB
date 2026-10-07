@@ -64,16 +64,24 @@ def build_bm25s(db, out_dir):
     retriever.save(out_dir)
 
 
+def data_mtime(data_dir):
+    return max(p.stat().st_mtime for p in [Path(data_dir) / 'state.json', *all_shards(data_dir)])
+
+
 def build(backend='bm25s', data_dir=DATA_DIR, index_dir=INDEX_DIR):
+    if backend == 'bm25s':
+        # Fail before the current index is deleted when bm25s is not installed.
+        import bm25s  # noqa: F401
+        import Stemmer  # noqa: F401
     index_dir = Path(index_dir)
     index_dir.mkdir(parents=True, exist_ok=True)
     (index_dir / 'meta.json').unlink(missing_ok=True)
     shutil.rmtree(index_dir / 'bm25s', ignore_errors=True)
+    meta = {'datestamp': read_state(data_dir), 'data_mtime': data_mtime(data_dir), 'backend': backend}
     db = build_sqlite(data_dir, index_dir / 'arxiv.sqlite', fts=backend == 'sqlite')
     if backend == 'bm25s':
         build_bm25s(db, index_dir / 'bm25s')
-    count = db.execute('SELECT count(*) FROM papers').fetchone()[0]
-    meta = {'datestamp': read_state(data_dir), 'papers': count, 'backend': backend}
+    meta['papers'] = db.execute('SELECT count(*) FROM papers').fetchone()[0]
     (index_dir / 'meta.json').write_text(json.dumps(meta) + '\n')
     return meta
 
@@ -140,9 +148,9 @@ def search(query, limit=10, years=None, categories=None, data_dir=DATA_DIR, inde
     index_dir = Path(index_dir)
     meta = json.loads((index_dir / 'meta.json').read_text())
     backend = meta['backend']
-    if meta['datestamp'] != read_state(data_dir):
-        print(f"warning: index is from data of {meta['datestamp']}, data is now "
-              f"{read_state(data_dir)}; run `python -m arxivdb build`", file=sys.stderr)
+    if data_mtime(data_dir) > meta['data_mtime']:
+        print(f"warning: data/ changed after this index was built from data of {meta['datestamp']}; "
+              f"run `python -m arxivdb build --backend {backend}`", file=sys.stderr)
     db = sqlite3.connect(f"file:{index_dir / 'arxiv.sqlite'}?mode=ro", uri=True)
     if backend == 'bm25s':
         hits = search_bm25s(db, query, limit, years, categories, index_dir)

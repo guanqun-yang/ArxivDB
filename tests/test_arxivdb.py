@@ -1,4 +1,6 @@
 import json
+import os
+import sys
 from pathlib import Path
 
 import pytest
@@ -111,9 +113,26 @@ def test_search_filters(built):
     assert all(r['year'] == 2015 and any(c.startswith('cs.') for c in r['categories']) for r in results)
 
 
-def test_search_warns_when_index_is_stale(built, capsys):
+def test_search_warns_when_data_changes_after_build(built, capsys):
     data_dir, index_dir = built
-    harvest.write_state('2026-10-06', data_dir)
     index.search('channels', data_dir=data_dir, index_dir=index_dir)
-    harvest.write_state('2026-10-05', data_dir)
-    assert 'run `python -m arxivdb build`' in capsys.readouterr().err
+    assert capsys.readouterr().err == ''
+    shard = harvest.all_shards(data_dir)[0]
+    mtime = shard.stat().st_mtime
+    os.utime(shard, (mtime + 60, mtime + 60))
+    index.search('channels', data_dir=data_dir, index_dir=index_dir)
+    os.utime(shard, (mtime, mtime))
+    backend = json.loads((Path(index_dir) / 'meta.json').read_text())['backend']
+    assert f'run `python -m arxivdb build --backend {backend}`' in capsys.readouterr().err
+
+
+def test_failed_bm25s_build_keeps_the_existing_index(tmp_path, monkeypatch):
+    records, _, _ = harvest.parse_page(PAGE)
+    write(records, tmp_path / 'data')
+    harvest.write_state('2026-10-05', tmp_path / 'data')
+    kwargs = dict(data_dir=tmp_path / 'data', index_dir=tmp_path / 'index')
+    index.build(backend='sqlite', **kwargs)
+    monkeypatch.setitem(sys.modules, 'bm25s', None)
+    with pytest.raises(ImportError):
+        index.build(backend='bm25s', **kwargs)
+    assert index.search('multiple access channels', **kwargs)[0]['id'] == '1503.06914'
