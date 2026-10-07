@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-10-07T00:49:19Z</responseDate>
+                <request verb="ListRecords" metadataPrefix="arXiv" from="2026-10-05" set="cs">http://oaipmh.arxiv.org/oai</request>
+
+
+    <ListRecords>
+                    <record>
+                <header>
+        <identifier>oai:arXiv.org:1111.3240</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:IT</setSpec>
+            <setSpec>math:math:IT</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>1111.3240</id>
+        <created>2026-10-01</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Kazerooni</keyname>
+                        <forenames>Abbas</forenames>
+                </author>
+                <author>
+                    <keyname>Golmohammadi</keyname>
+                        <forenames>Azarang</forenames>
+                </author>
+                <author>
+                    <keyname>Marvasti</keyname>
+                        <forenames>Farokh</forenames>
+                </author>
+        </authors>
+        <title>Salt-and-Pepper Noise Removal Based on Sparse Signal Processing</title>
+            <categories>cs.IT math.IT</categories>
+            <comments>this is an old paper we stopped working on</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>In this paper, we propose a new method for Salt-and-Pepper noise removal from images. Whereas most of the existing methods are based on Ordered Statistics filters, our method is based on the growing theory of Sparse Signal Processing. In other words, we convert the problem of denoising into a sparse signal reconstruction problem which can be dealt with the corresponding techniques. As a result, the output image of our method is preserved from the undesirable opacity which is a disadvantage of most of the other methods. We also introduce an efficient reconstruction algorithm which will be used in our method. Simulation results indicate that our method outperforms the other best-known methods both in term of PSNR and visual criterion. Furthermore, our method can be easily used for reconstruction of missing samples in erasure channels.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:1503.06914</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:IT</setSpec>
+            <setSpec>math:math:IT</setSpec>
+            <setSpec>physics:quant-ph</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>1503.06914</id>
+        <created>2015-03-24</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Kubo</keyname>
+                        <forenames>Takuya</forenames>
+                </author>
+                <author>
+                    <keyname>Nagaoka</keyname>
+                        <forenames>Hiroshi</forenames>
+                </author>
+        </authors>
+        <title>A Fundamental Inequality for Lower-bounding the Error Probability for Classical and Quantum Multiple Access Channels and Its Applications</title>
+            <categories>cs.IT math.IT quant-ph</categories>
+            <comments>under submission</comments>
+            <journal-ref>IEICE Trans. Fundamentals, vol. E98-A, no. 12, pp. 2376-2383, 2015</journal-ref>
+            <doi>10.1587/transfun.E98.A.2376</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>In the study of the capacity problem for multiple access channels (MACs), a lower bound on the error probability obtained by Han plays a crucial role in the converse parts of several kinds of channel coding theorems in the information-spectrum framework. Recently, Yagi and Oohama showed a tighter bound than the Han bound by means of Polyanskiy&#39;s converse. In this paper, we give a new bound which generalizes and strengthens the Yagi-Oohama bound, and demonstrate that the bound plays a fundamental role in deriving extensions of several known bounds. In particular, the Yagi-Oohama bound is generalized to two different directions; i.e, to general input distributions and to general encoders. In addition we extend these bounds to the quantum MACs and apply them to the converse problems for several information-spectrum settings.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2002.12119</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:GT</setSpec>
+            <setSpec>cs:cs:CC</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2002.12119</id>
+        <created>2026-10-02</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Deligkas</keyname>
+                        <forenames>Argyrios</forenames>
+                </author>
+                <author>
+                    <keyname>Fearnley</keyname>
+                        <forenames>John</forenames>
+                </author>
+                <author>
+                    <keyname>Savani</keyname>
+                        <forenames>Rahul</forenames>
+                </author>
+        </authors>
+        <title>Path Polymatrix Games are PPAD-hard</title>
+            <categories>cs.GT cs.CC</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>We prove that it is PPAD-hard to compute a Nash equilibrium in a tree polymatrix game with at most twenty actions per player, and path polymatrix game with at most four hundred actions per player. These are the first PPAD hardness results for a game with a constant number of actions per player where the interaction graph is acyclic. Along the way we show PPAD-hardness for finding an $ε$-fixed point of a 2D LinearFIXP instance, when $ε$ is any constant less than $0.5$. This result is tight, since finding a 0.5-fixed point in a 2D LinearFIXP instance is trivial.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2111.14385</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>math:math:NA</setSpec>
+            <setSpec>cs:cs:NA</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2111.14385</id>
+        <created>2026-10-02</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Karpowicz</keyname>
+                        <forenames>Michał P.</forenames>
+                </author>
+        </authors>
+        <title>A theory of meta-factorization</title>
+            <categories>math.NA cs.NA</categories>
+            <comments>New sections added, new illustrations, major revision and debugging, new matlab code for demonstrations</comments>
+            <msc-class>15A10, 15A23, 15A24, 65F45, 65F55, 68W20</msc-class>
+            <acm-class>15A10, 15A23, 15A24, 65F45, 65F55, 68W20</acm-class>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Meta-factorization asks how different factors and transforms describe the same matrix and how a factor can be replaced while preserving that matrix. Projector and reconstruction equations give a common description. For $A=FGH^*$ with outer factors of full column rank $k$, $Y^*F=H^*X=I_k$ certifies generally oblique projectors. Exact reconstruction requires their ranges to contain the column spaces of $A$ and $A^*$. Two design matrices parametrize every certifying pair; the core is unique and nonsingular at $k=\operatorname{rank}(A)$. Detailed constructions recover SVD, column-pivoted QR, UTV, generalized Nystrom, CUR and classical pseudoinverse formulas with their structural hypotheses.
+  The framework makes factor replacement testable from stored factors. For a supplied candidate $\check F$ and transform $\check Y^*$, with $H$ of full column rank, $\check G=(\check Y^*F)G$ preserves $A$ exactly when $[F-\check F(\check Y^*F)]G=0$. Test, repair and exact factored residual require no access to $A$. With the pseudoinverse as transform, the updated product is a closest reconstruction within the candidate&#39;s column space in every unitarily invariant norm. We characterize the accepted subspaces under the stated inverse and rank conditions and extend replacement to different stored widths. Nonsingular generalized right-hand sides change certifying coordinates; finite-order choices yield potent operators and periodic reconstruction. Classical Fourier components test preservation of the core at every step, including singular cores. The contribution is a common description with explicit replacement and reconstruction consequences. Numerical acceptance, conditioning and candidate selection require further analysis.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2209.14887</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:RO</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2209.14887</id>
+        <created>2026-10-02</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Gangapurwala</keyname>
+                        <forenames>Siddhant</forenames>
+                </author>
+                <author>
+                    <keyname>Campanaro</keyname>
+                        <forenames>Luigi</forenames>
+                </author>
+                <author>
+                    <keyname>Havoutis</keyname>
+                        <forenames>Ioannis</forenames>
+                </author>
+        </authors>
+        <title>Learning Low-Frequency Motion Control for Robust and Dynamic Robot Locomotion</title>
+            <categories>cs.RO cs.AI</categories>
+            <comments>7 pages, 9 figures and 2 tables</comments>
+            <journal-ref>IEEE International Conference on Robotics and Automation (ICRA) 2023</journal-ref>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>Robotic locomotion is often approached with the goal of maximizing robustness and reactivity by increasing motion control frequency. We challenge this intuitive notion by demonstrating robust and dynamic locomotion with a learned motion controller executing at as low as 8 Hz on a real ANYmal C quadruped. The robot is able to robustly and repeatably achieve a high heading velocity of 1.5 m/s, traverse uneven terrain, and resist unexpected external perturbations. We further present a comparative analysis of deep reinforcement learning (RL) based motion control policies trained and executed at frequencies ranging from 5 Hz to 200 Hz. We show that low-frequency policies are less sensitive to actuation latencies and variations in system dynamics. This is to the extent that a successful sim-to-real transfer can be performed even without any dynamics randomization or actuation modeling. We support this claim through a set of rigorous empirical evaluations. Moreover, to assist reproducibility, we provide the training and deployment code along with an extended analysis at https://articulated.robots.ox.ac.uk/lfmc/.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2307.07113</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>math:math:OC</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2307.07113</id>
+        <created>2026-10-02</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Mancino-Ball</keyname>
+                        <forenames>Gabriel</forenames>
+                </author>
+                <author>
+                    <keyname>Khan</keyname>
+                        <forenames>Muhammad</forenames>
+                </author>
+                <author>
+                    <keyname>Xu</keyname>
+                        <forenames>Yangyang</forenames>
+                </author>
+        </authors>
+        <title>Variance-reduced accelerated methods for decentralized stochastic double-regularized nonconvex strongly-concave minimax problems</title>
+            <categories>math.OC cs.LG</categories>
+            <comments>Updated to include second author Muhammad Khan who contributed during the rebuttal phase of the submission</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>In this paper, we consider the decentralized, stochastic nonconvex strongly-concave (NCSC) minimax problem with nonsmooth regularization terms on both primal and dual variables, wherein a network of $m$ computing agents collaborate via peer-to-peer communications. We consider when the coupling function is in expectation or finite-sum form and the double regularizers are convex functions, applied separately to the primal and dual variables. Our algorithmic framework introduces a Lagrangian multiplier to eliminate the consensus constraint on the dual variable. Coupling this with variance-reduction (VR) techniques, our proposed method, entitled VRLM, by a single neighbor communication per iteration, is able to achieve an $\mathcal{O}(κ^3\varepsilon^{-3})$ sample complexity under the general stochastic setting, with either a big-batch or small-batch VR option, where $κ$ is the condition number of the problem and $\varepsilon$ is the desired solution accuracy. With a big-batch VR, we can additionally achieve $\mathcal{O}(κ^2\varepsilon^{-2})$ communication complexity. Under the special finite-sum setting, our method with a big-batch VR can achieve an $\mathcal{O}(n + \sqrt{n} κ^2\varepsilon^{-2})$ sample complexity and $\mathcal{O}(κ^2\varepsilon^{-2})$ communication complexity, where $n$ is the number of components in the finite sum. All complexity results match the best-known results achieved by a few existing methods for solving special cases of the problem we consider. To the best of our knowledge, this is the first work which provides convergence guarantees for NCSC minimax problems with general convex nonsmooth regularizers applied to both the primal and dual variables in the decentralized stochastic setting. Numerical experiments are conducted on two machine learning problems. Our code is downloadable from https://github.com/RPI-OPT/VRLM.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2307.15494</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:CL</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:HC</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2307.15494</id>
+        <created>2026-10-02</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Denamganaï</keyname>
+                        <forenames>Kevin Yandoka</forenames>
+                </author>
+                <author>
+                    <keyname>Hernandez</keyname>
+                        <forenames>Daniel</forenames>
+                </author>
+                <author>
+                    <keyname>Vardal</keyname>
+                        <forenames>Ozan</forenames>
+                </author>
+                <author>
+                    <keyname>Missaoui</keyname>
+                        <forenames>Sondess</forenames>
+                </author>
+                <author>
+                    <keyname>Walker</keyname>
+                        <forenames>James Alfred</forenames>
+                </author>
+        </authors>
+        <title>ETHER: Aligning Emergent Communication for Hindsight Experience Replay</title>
+            <categories>cs.CL cs.AI cs.HC</categories>
+            <comments>work in progress</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Hindsight Experience Replay (HER) enhances sample efficiency in goal-conditioned reinforcement learning (RL) by relabelling failed trajectories with goals that were actually achieved. However, HER implicitly assumes access to a goal relabelling function and a predicate function that determines whether a goal has been satisfied. These assumptions break down in instruction-following tasks, where goals are expressed in natural language and differ from the state space. We formalize this as the Hindsight Reinforcement Learning problem, which shows the need to jointly learn these functions alongside the RL policy. To address it, we propose ETHER (Emergent Textual Hindsight Experience Replay), an agent that leverages Emergent Communication to learn the goal-relabelling and predicate functions. ETHER uses a referential game (RG) to train a speaker and a listener to develop a grounded, artificial language describing environment states. It partially aligns this emergent language with instruction language using co-occurrence patterns between task instructions and RL observations. We prove that the relabelling and predicate functions that ETHER derives from the RG avoid the degenerate solutions of the Hindsight RL problem, namely trivial predicates and collapsed relabelling functions. Experiments on BabyAI&#39;s PickupDist task show that ETHER&#39;s learned RG speaker and listener can function as the goal relabelling and predicate functions of HER, improving sample efficiency despite imperfect language alignment. Our work bridges Emergent Communication and goal-conditioned RL, opening the door to wider applications of HER.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2311.18837</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:CV</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:MM</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2311.18837</id>
+        <created>2026-10-02</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Xing</keyname>
+                        <forenames>Zhen</forenames>
+                </author>
+                <author>
+                    <keyname>Tu</keyname>
+                        <forenames>Shuyuan</forenames>
+                </author>
+                <author>
+                    <keyname>Dai</keyname>
+                        <forenames>Qi</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Zihao</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Hui</forenames>
+                </author>
+                <author>
+                    <keyname>Hu</keyname>
+                        <forenames>Han</forenames>
+                </author>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Zuxuan</forenames>
+                </author>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Yu-Gang</forenames>
+                </author>
+        </authors>
+        <title>VIDiff: Translating Videos via Multi-Modal Instructions with Diffusion Models</title>
+            <categories>cs.CV cs.AI cs.LG cs.MM</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Diffusion models have achieved significant success in image and video generation. This motivates a growing interest in video editing tasks, where videos are edited according to provided text descriptions. However, most existing approaches only focus on video editing for short clips and rely on time-consuming tuning or inference. We are the first to propose Video Instruction Diffusion (VIDiff), a unified foundation model designed for a wide range of video tasks. These tasks encompass both understanding tasks (such as language-guided video object segmentation) and generative tasks (video editing and enhancement). Our model can edit and translate the desired results within seconds based on user instructions. Moreover, we design an iterative auto-regressive method to ensure consistency in editing and enhancing long videos. We provide convincing generative results for diverse input videos and written instructions, both qualitatively and quantitatively. More examples can be found at our website https://ChenHsing.github.io/VIDiff.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2312.04487</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:DS</setSpec>
+            <setSpec>cs:cs:DM</setSpec>
+            <setSpec>math:math:CO</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2312.04487</id>
+        <created>2026-07-01</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Alemany-Puig</keyname>
+                        <forenames>Lluís</forenames>
+                </author>
+                <author>
+                    <keyname>Esteban</keyname>
+                        <forenames>Juan Luis</forenames>
+                </author>
+                <author>
+                    <keyname>Ferrer-i-Cancho</keyname>
+                        <forenames>Ramon</forenames>
+                </author>
+        </authors>
+        <title>Maximum Linear Arrangement: exact algorithms for specific classes of graphs and approximation algorithms for wide classes of graphs</title>
+            <categories>cs.DS cs.DM math.CO</categories>
+            <journal-ref>Alemany-Puig, L., Esteban, J.L. &amp; Ferrer-i-Cancho, R. (2026). Maximum linear arrangement: exact algorithms for specific classes of graphs and approximation algorithms for wide classes of graphs. Journal of Combinatorial Optimization 52, 16</journal-ref>
+            <doi>10.1007/s10878-026-01454-z</doi>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Linear arrangements of graphs are a well-known type of graph labeling and are found in many important computational problems. A linear arrangement is usually defined as a permutation of the $n$ vertices of a graph. An intuitive geometric setting is that of vertices lying on consecutive integer positions in the real line, starting at 1; edges are often drawn as semicircles above the real line. A well-known computational problem is the Minimum Linear Arrangement Problem (${\tt minLA}$) where the goal is to find an arrangement that minimizes the sum of edge lengths. In this paper we study the Maximum Linear Arrangement problem (${\tt MaxLA}$), the counterpart of ${\tt minLA}$. We devise a new characterization of maximum arrangements of general graphs, and prove that ${\tt MaxLA}$ can be solved for $k$-regular graphs ($k\le2$) in time $O(n)$, and for $k$-linear trees ($k\le2$) in time $O(n)$. We present two constrained variants of ${\tt MaxLA}$ we call ${\tt bipartite MaxLA}$ and ${\tt 1-thistle MaxLA}$. We prove that the former can be solved in time $O(n)$ for any connected bipartite graph; the latter can be solved by an algorithm that typically runs in time $O(n^3\log n)$ on unlabeled trees. We show that ${\tt bipartite MaxLA}$ is a $3/2$-approximation algorithm for ${\tt MaxLA}$ for trees.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2401.10895</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:CE</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2401.10895</id>
+        <created>2026-10-01</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Jahin</keyname>
+                        <forenames>Md Abrar</forenames>
+                </author>
+                <author>
+                    <keyname>Naife</keyname>
+                        <forenames>Saleh Akram</forenames>
+                </author>
+                <author>
+                    <keyname>Saha</keyname>
+                        <forenames>Anik Kumar</forenames>
+                </author>
+                <author>
+                    <keyname>Mridha</keyname>
+                        <forenames>M. F.</forenames>
+                </author>
+        </authors>
+        <title>AI in Supply Chain Risk Assessment: A Systematic Literature Review and Bibliometric Analysis</title>
+            <categories>cs.LG cs.CE</categories>
+            <journal-ref>SN Business &amp; Economics (2026). Springer Nature</journal-ref>
+            <doi>10.1007/s43546-026-01436-7</doi>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Supply chain risk assessment (SCRA) is pivotal for ensuring resilience in increasingly complex global supply networks. While existing reviews have explored traditional methodologies, they often neglect emerging artificial intelligence (AI) and machine learning (ML) applications and mostly lack combined systematic and bibliometric analyses. This study addresses these gaps by integrating a systematic literature review with bibliometric analysis, examining 1,903 articles (2015-2025), with 54 studies selected through PRISMA guidelines. Our findings reveal that ML models, including Random Forest, XGBoost, and hybrid approaches, significantly improve risk prediction accuracy and adaptability in post-pandemic contexts. The bibliometric analysis identifies key trends, influential authors, and institutional contributions, highlighting China and the United States as leading research hubs. Practical insights emphasize the integration of explainable AI (XAI) for transparent decision-making, real-time data utilization, and blockchain for traceability. The study underscores the necessity of dynamic strategies, interdisciplinary collaboration, and continuous model evaluation to address challenges such as data quality and interpretability. By synthesizing AI-driven methodologies with resilience frameworks, this review provides actionable guidance for optimizing supply chain risk management, fostering adaptability, and informing future research in evolving risk landscapes.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2403.12567</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>eess:eess:SY</setSpec>
+            <setSpec>cs:cs:SY</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2403.12567</id>
+        <created>2026-10-01</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Perez-Salesa</keyname>
+                        <forenames>Irene</forenames>
+                </author>
+                <author>
+                    <keyname>Aldana-Lopez</keyname>
+                        <forenames>Rodrigo</forenames>
+                </author>
+                <author>
+                    <keyname>Sagues</keyname>
+                        <forenames>Carlos</forenames>
+                </author>
+        </authors>
+        <title>NN-ETM: Enabling safe neural network-based event-triggering mechanisms for consensus problems</title>
+            <categories>eess.SY cs.SY</categories>
+            <comments>This work has been accepted for publication in IEEE Transactions on Systems, Man and Cybernetics: Systems</comments>
+            <doi>10.1109/TSMC.2026.3740259</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Event-triggering mechanisms (ETMs) have been developed for consensus problems to reduce communication while ensuring performance guarantees, but their design has grown increasingly complex by incorporating the agent&#39;s local and neighbor information. This typically results in ad-hoc solutions, which may only work for the consensus protocol under consideration. We aim to safely incorporate neural networks in the ETM to provide a general solution while guaranteeing performance. To decouple the stability analysis of the consensus protocol from the abstraction of the neural network, we derive design criteria for the consensus and ETM pair, allowing independent analysis of each element under mild constraints. Then, we propose NN-ETM, a novel ETM featuring a neural network, to reduce communication adaptively thanks to the variable threshold learned by the network while preserving the stability guarantees of the consensus protocol.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2404.11624</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>math:math:GM</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2404.11624</id>
+        <created>2026-10-02</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Pan</keyname>
+                        <forenames>Wuming</forenames>
+                </author>
+        </authors>
+        <title>Token Space: A Category Theory Framework for AI Computations</title>
+            <categories>math.GM cs.LG</categories>
+            <comments>125 pages, 25 figures, 17 tables. Expanded framework and computing-machine foundations, including compact evaluable representations (CERs), concurrent and elastic execution, exact retained-state compression, and LLM learning protocols and causal structure. Finite validation code and results included</comments>
+            <msc-class>I.2.6</msc-class>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>Token Space is a categorical framework and mathematical language for AI computations. It connects internal relations, program descriptions, execution states and observations, locating questions about structure, behavior and cost at their appropriate levels. Five guiding positions concern structural interiors, categorical self-description, interfaces, occurrence identity and extensible computation. Tokens are finite records of carrier elements and fixed symbols; Token maps preserve selected heaps. The elementary category is a quasitopos, hence locally cartesian closed, but not a topos. Algebraic tokenization is fully faithful for fixed finitary signatures. Represented finite mappings admit concurrent graph execution, gluing, functorial frontiers and exact state migration characterized by kernel inclusion. Transformers are one implementation family. Coherent occurrence prefixes yield natural numerical maps, and a cache invariant proves agreement with full-prefix evaluation. A prescribed access policy determines the least retained index set under a no-reconstruction discipline. Parameterised state expresses changing interfaces. For a specified future-observation heap, structural indiscernibility is behavioral equivalence. An encoding admits exact incremental execution precisely when its kernel is a right congruence contained in that equivalence; every reachable exact realization maps uniquely onto the behavioral quotient. Teacher-induced heaps and declared readouts connect these constructions to distillation and explicit knowledge. The definitions, examples and theorems demonstrate how the language joins lines of reasoning while distinguishing representation, execution and observation. Effective implementations and quantitative performance remain further questions.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2404.18502</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>physics:quant-ph</setSpec>
+            <setSpec>cs:cs:CR</setSpec>
+            <setSpec>cs:cs:ET</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2404.18502</id>
+        <created>2025-03-24</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Issel</keyname>
+                        <forenames>Sebastian</forenames>
+                </author>
+                <author>
+                    <keyname>Tscharke</keyname>
+                        <forenames>Kilian</forenames>
+                </author>
+                <author>
+                    <keyname>Debus</keyname>
+                        <forenames>Pascal</forenames>
+                </author>
+        </authors>
+        <title>Towards Classical Software Verification using Quantum Computers</title>
+            <categories>quant-ph cs.CR cs.ET</categories>
+            <doi>10.1109/QCNC64685.2025.00099</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>We explore the possibility of accelerating the formal verification of classical programs with a quantum computer.
+  A common source of security flaws stems from the existence of common programming errors like use after free, null-pointer dereference, or division by zero. To aid in the discovery of such errors, we try to verify that no such flaws exist.
+  In our approach, for some code snippet and undesired behaviour, a SAT instance is generated, which is satisfiable precisely if the behavior is present in the code. It is in turn converted to an optimization problem, that is solved on a quantum computer. This approach holds the potential of an asymptotically polynomial speedup.
+  Minimal examples of common errors, like out-of-bounds and overflows, but also synthetic instances with special properties, specific number of solutions, or structure, are tested with different solvers and tried on a quantum device.
+  We use the near-standard Quantum Approximation Optimisation Algorithm, an application of the Grover algorithm, and the Quantum Singular Value Transformation to find the optimal solution, and with it a satisfying assignment.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2406.00092</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2406.00092</id>
+        <created>2026-10-01</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Van Koevering</keyname>
+                        <forenames>Katherine</forenames>
+                </author>
+                <author>
+                    <keyname>Kleinberg</keyname>
+                        <forenames>Jon</forenames>
+                </author>
+        </authors>
+        <title>Heads, Tails, and AI Fails: LLMs, Randomness, and Human Judgments</title>
+            <categories>cs.AI cs.LG</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Randomness is central to human cognition and to many applications in which large language models are deployed, yet probabilistic token generation does not imply that LLMs can produce unbiased random sequences. We study how contemporary LLMs generate binary random sequences using the classic behavioral-science paradigm of simulated coin flips. Across single flips, 20-flip sequences, n-gram statistics, run lengths, alternation rates, and next-flip predictability, we compare model outputs to both true Bernoulli baselines and human data from prior work. We find that LLMs reproduce several canonical human randomness biases, including over-alternation, aversion to long runs, and first-flip biases, but often amplify them or introduce model-specific distortions. Increasing temperature reduces some rigid patterns but does not eliminate systematic structure. We further investigate over-alternation through prompt-framing experiments, continuation tests, corpus searches, and residual-stream probes, finding evidence that this bias is not explained by direct memorization or tokenization alone. These results show that LLMs are unreliable generators of randomness and imperfect simulators of human randomness judgments, with implications for applications requiring stochasticity, fair sampling, or behavioral simulation.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2406.01862</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:CY</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2406.01862</id>
+        <created>2026-10-01</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Ferrara</keyname>
+                        <forenames>Emilio</forenames>
+                </author>
+        </authors>
+        <title>Charting the Landscape of Nefarious Uses of Generative Artificial Intelligence for Online Election Interference</title>
+            <categories>cs.CY</categories>
+            <journal-ref>First Monday 30(1), June 2025</journal-ref>
+            <doi>10.5210/fm.v30i6.14188</doi>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Generative Artificial Intelligence (GenAI) and Large Language Models (LLMs) pose significant risks, particularly in the realm of online election interference. This paper explores the nefarious applications of GenAI, highlighting their potential to disrupt democratic processes through deepfakes, botnets, targeted misinformation campaigns, and synthetic identities. By examining recent case studies and public incidents, we illustrate how malicious actors exploit these technologies to try influencing voter behavior, spread disinformation, and undermine public trust in electoral systems. The paper also discusses the societal implications of these threats, emphasizing the urgent need for robust mitigation strategies and international cooperation to safeguard democratic integrity.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2406.02001</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:IT</setSpec>
+            <setSpec>math:math:IT</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2406.02001</id>
+        <created>2026-10-02</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Østergaard</keyname>
+                        <forenames>Jan</forenames>
+                </author>
+        </authors>
+        <title>Higher-order Common Information</title>
+            <categories>cs.IT math.IT</categories>
+            <comments>This is the final preprint version</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Shannon&#39;s mutual information quantifies dependence between two random variables. We introduce \emph{higher-order common information} (HCI), a measure of statistical relevance across $n$ random variables. HCI is defined through a sequential information-bottleneck construction in which an auxiliary representation is generated locally from a single reference source and successively optimized for relevance to the remaining sources. The terminal representation is evaluated by its minimum mutual information with any individual source. Thus, an HCI value of $r$ guarantees a locally generated representation having at least $r$ bits of statistical information about every source. We derive closed-form expressions for jointly Gaussian sources and for a binary common-source model for arbitrary finite $n$. For finite-alphabet sources, we further show that the HCI is lower-bounded by the Gács--Körner common information, while it is upper-bounded by the smallest pairwise mutual information. Finally, we propose an HCI-inspired numerical approximation and illustrate its application to multivariate EEG data.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2406.19892</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:CL</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2406.19892</id>
+        <created>2026-10-02</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Henriksson</keyname>
+                        <forenames>Erik</forenames>
+                </author>
+                <author>
+                    <keyname>Myntti</keyname>
+                        <forenames>Amanda</forenames>
+                </author>
+                <author>
+                    <keyname>Hellström</keyname>
+                        <forenames>Saara</forenames>
+                </author>
+                <author>
+                    <keyname>Eskelinen</keyname>
+                        <forenames>Anni</forenames>
+                </author>
+                <author>
+                    <keyname>Erten-Johansson</keyname>
+                        <forenames>Selcen</forenames>
+                </author>
+                <author>
+                    <keyname>Laippala</keyname>
+                        <forenames>Veronika</forenames>
+                </author>
+        </authors>
+        <title>Automatic register identification for the open web using multilingual deep learning</title>
+            <categories>cs.CL</categories>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>This article presents multilingual deep learning models for identifying web registers -- text varieties such as news reports and discussion forums -- across 16 languages. We introduce the Multilingual CORE corpora, which contain over 72,000 documents annotated with a hierarchical taxonomy of 25 registers designed to cover the entire open web. Using multi-label classification, our best model achieves 79% F1 averaged across languages, matching or exceeding previous studies that used simpler classification schemes. This demonstrates that models can perform well even with a complex register scheme at multilingual scale. However, we observe a consistent performance ceiling across all models and configurations. When we remove documents with uncertain labels through data pruning, performance increases to over 90% F1, suggesting that this ceiling stems from inherent ambiguity in web registers rather than model limitations. Analysis of hybrid texts (those combining multiple registers) reveals that the main challenge lies not in classifying hybrids themselves, but in distinguishing hybrid from non-hybrid documents. Multilingual models consistently outperform monolingual ones, particularly for languages with limited training data. Zero-shot performance on unseen languages drops by an average of 7%, though this varies by language (3--8%), indicating that while registers share features across languages, they also retain language-specific characteristics.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2407.12927</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:CV</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2407.12927</id>
+        <created>2026-10-02</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Richet</keyname>
+                        <forenames>Nicolas</forenames>
+                </author>
+                <author>
+                    <keyname>Belharbi</keyname>
+                        <forenames>Soufiane</forenames>
+                </author>
+                <author>
+                    <keyname>Aslam</keyname>
+                        <forenames>Haseeb</forenames>
+                </author>
+                <author>
+                    <keyname>Schadt</keyname>
+                        <forenames>Meike Emilie</forenames>
+                </author>
+                <author>
+                    <keyname>González-González</keyname>
+                        <forenames>Manuela</forenames>
+                </author>
+                <author>
+                    <keyname>Cortal</keyname>
+                        <forenames>Gustave</forenames>
+                </author>
+                <author>
+                    <keyname>Koerich</keyname>
+                        <forenames>Alessandro Lameiras</forenames>
+                </author>
+                <author>
+                    <keyname>Pedersoli</keyname>
+                        <forenames>Marco</forenames>
+                </author>
+                <author>
+                    <keyname>Finkel</keyname>
+                        <forenames>Alain</forenames>
+                </author>
+                <author>
+                    <keyname>Bacon</keyname>
+                        <forenames>Simon</forenames>
+                </author>
+                <author>
+                    <keyname>Granger</keyname>
+                        <forenames>Eric</forenames>
+                </author>
+        </authors>
+        <title>Textualized and Feature-based Models for Compound Multimodal Emotion Recognition in the Wild</title>
+            <categories>cs.CV</categories>
+            <comments>14 pages, 3 figures, ECCVw 2024</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Systems for multimodal emotion recognition (ER) are commonly trained to extract features from different modalities (e.g., visual, audio, and textual) that are combined to predict individual basic emotions. However, compound emotions often occur in real-world scenarios, and the uncertainty of recognizing such complex emotions over diverse modalities is challenging for feature-based models. As an alternative, emerging large language models (LLMs) like BERT and LLaMA can rely on explicit non-verbal cues that may be translated from different non-textual modalities (e.g., audio and visual) into text. Textualization of modalities augments data with emotional cues to help the LLM encode the interconnections between all modalities in a shared text space. In such text-based models, prior knowledge of ER tasks is leveraged to textualize relevant non-verbal cues such as audio tone from vocal expressions, and action unit intensity from facial expressions. Since the pre-trained weights are publicly available for many LLMs, training on large-scale datasets is unnecessary, allowing to fine-tune for downstream tasks such as compound ER (CER). This paper compares the potential of text- and feature-based approaches for compound multimodal ER in videos. Experiments were conducted on the challenging C-EXPR-DB dataset in the wild for CER, and contrasted with results on the MELD dataset for basic ER. Our results indicate that multimodal textualization provides lower accuracy than feature-based models on C-EXPR-DB, where text transcripts are captured in the wild. However, higher accuracy can be achieved when the video data has rich transcripts. Our code is available.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2408.12869</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:DM</setSpec>
+            <setSpec>math:math:CO</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2408.12869</id>
+        <created>2026-10-02</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>van der Hulst</keyname>
+                        <forenames>Rolf</forenames>
+                </author>
+                <author>
+                    <keyname>Walter</keyname>
+                        <forenames>Matthias</forenames>
+                </author>
+        </authors>
+        <title>A Row-wise Algorithm for Graph Realization</title>
+            <categories>cs.DM math.CO</categories>
+            <comments>45 pages, 11 figures</comments>
+            <msc-class>90C57 (primary), 52B40 (secondary), 05C50 (secondary)</msc-class>
+            <acm-class>90C57 (primary), 52B40 (secondary), 05C50 (secondary)</acm-class>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Given a $\{0, 1\}$-matrix $M$, the graph realization problem for $M$ asks if there exists a spanning forest such that the columns of $M$ are incidence vectors of paths in the forest. The problem is closely related to the recognition of network matrices, which are a large subclass of totally unimodular matrices and have many applications in mixed-integer programming. Existing efficient algorithms for graph realization grow a submatrix in a column-wise fashion whilst maintaining a graphic realization. In the context of mixed-integer linear programming, this limits the set of submatrices of the constraint matrix that can efficiently be determined to be network matrices to network submatrices that span all rows and a subset of the columns. This paper complements the existing work by providing an algorithm that works in a row-wise fashion and uses similar data structures, and enables the detection of arbitrary graphic submatrices. The main challenge in designing efficient algorithms for the graph realization problem is ambiguity as there may exist many graphs realizing $M$. The key insight for designing an efficient row-wise algorithm is that a graphic matrix is uniquely represented by an SPQR-tree, a graph decomposition that stores all graphs with the same set of cycles. The developed row-wise algorithm uses data structures that are compatible with the column-wise algorithm and can be combined with the latter to detect maximal graphic submatrices.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2409.15402</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:SI</setSpec>
+            <setSpec>cs:cs:CY</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2409.15402</id>
+        <created>2026-10-01</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Minici</keyname>
+                        <forenames>Marco</forenames>
+                </author>
+                <author>
+                    <keyname>Luceri</keyname>
+                        <forenames>Luca</forenames>
+                </author>
+                <author>
+                    <keyname>Cinus</keyname>
+                        <forenames>Federico</forenames>
+                </author>
+                <author>
+                    <keyname>Ferrara</keyname>
+                        <forenames>Emilio</forenames>
+                </author>
+        </authors>
+        <title>Uncovering Coordinated Cross-Platform Information Operations Threatening the Integrity of the 2024 U.S. Presidential Election Online Discussion</title>
+            <categories>cs.SI cs.CY</categories>
+            <journal-ref>First Monday, 29(11), November 2024</journal-ref>
+            <doi>10.5210/fm.v29i11.13831</doi>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Information Operations (IOs) pose a significant threat to the integrity of democratic processes, with the potential to influence election-related online discourse. In anticipation of the 2024 U.S. presidential election, we present a study aimed at uncovering the digital traces of coordinated IOs on $\mathbb{X}$ (formerly Twitter). Using our machine learning framework for detecting online coordination, we analyze a dataset comprising election-related conversations on $\mathbb{X}$ from May 2024. This reveals a network of coordinated inauthentic actors, displaying notable similarities in their link-sharing behaviors. Our analysis shows concerted efforts by these accounts to disseminate misleading, redundant, and biased information across the Web through a coordinated cross-platform information operation: The links shared by this network frequently direct users to other social media platforms or suspicious websites featuring low-quality political content and, in turn, promoting the same $\mathbb{X}$ and YouTube accounts. Members of this network also shared deceptive images generated by AI, accompanied by language attacking political figures and symbolic imagery intended to convey power and dominance. While $\mathbb{X}$ has suspended a subset of these accounts, more than 75% of the coordinated network remains active. Our findings underscore the critical role of developing computational models to scale up the detection of threats on large social media platforms, and emphasize the broader implications of these techniques to detect IOs across the wider Web.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2410.18888</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>math:math:OC</setSpec>
+            <setSpec>cs:cs:SY</setSpec>
+            <setSpec>eess:eess:SY</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2410.18888</id>
+        <created>2026-10-02</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Esterhuizen</keyname>
+                        <forenames>Willem</forenames>
+                </author>
+                <author>
+                    <keyname>Maschke</keyname>
+                        <forenames>Bernhard</forenames>
+                </author>
+                <author>
+                    <keyname>Preuster</keyname>
+                        <forenames>Till</forenames>
+                </author>
+                <author>
+                    <keyname>Schaller</keyname>
+                        <forenames>Manuel</forenames>
+                </author>
+                <author>
+                    <keyname>Worthmann</keyname>
+                        <forenames>Karl</forenames>
+                </author>
+        </authors>
+        <title>Nonlinear controlled port-Hamiltonian systems: Existence of (optimal) solutions</title>
+            <categories>math.OC cs.SY eess.SY</categories>
+            <comments>23 pages, 6 figures</comments>
+            <msc-class>34A12, 49J15, 80M50, 93D20</msc-class>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>We investigate the existence of solutions of reversible and irreversible port-Hamilto\-nian systems. To this end, we utilize the associated exergy, a function that is composed of the system&#39;s Hamiltonian and entropy, to prove global existence in time for bounded control functions. Then, we rigorously verify our existence conditions for two examples, the gas-piston system and a network of heat exchangers. Last, we explore model predictive control tailored to irreversible port-Hamiltonian systems by means of a numerical case study with a heat exchanger network.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2411.08561</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:SE</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2411.08561</id>
+        <created>2026-10-02</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Guan</keyname>
+                        <forenames>Wei</forenames>
+                </author>
+                <author>
+                    <keyname>Cao</keyname>
+                        <forenames>Jian</forenames>
+                </author>
+                <author>
+                    <keyname>Qian</keyname>
+                        <forenames>Shiyou</forenames>
+                </author>
+                <author>
+                    <keyname>Gao</keyname>
+                        <forenames>Jianqi</forenames>
+                </author>
+                <author>
+                    <keyname>Ouyang</keyname>
+                        <forenames>Chun</forenames>
+                </author>
+        </authors>
+        <title>LogLLM: Log-based Anomaly Detection Using Large Language Models</title>
+            <categories>cs.SE cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Software systems often record important runtime information in logs to help with troubleshooting. Log-based anomaly detection has become a key research area that aims to identify system issues through log data, ultimately enhancing the reliability of software systems. Existing methods often fall short in capturing the semantic information, typically expressed in natural language, or the sequential dependencies inherent in log sequences. In this paper, we propose LogLLM, a framework that enables collaboration between heterogeneous LLMs for log-based anomaly detection. LogLLM exploits the complementary capabilities of different LLM architectures: a Transformer encoder-based LLM is employed to extract fine-grained semantic vectors from individual log messages, while a Transformer decoder-based LLM is utilized to model sequential dependencies and generate anomaly detection decisions. To enable effective collaboration between these heterogeneous LLMs, we introduce a learnable projector to align their vector representation spaces. Furthermore, we design a progressive three-stage training strategy to optimize the collaboration between heterogeneous LLMs by gradually aligning their representations and adapting them to log anomaly detection. Unlike conventional methods that require log parsers to extract templates, LogLLM preprocesses log messages with regular expressions, streamlining the entire process. Experimental results on four public real-world datasets demonstrate that LogLLM outperforms state-of-the-art methods, achieving an average F$_1$-score improvement of 6.6% over the strongest existing approach. Further analyses provide insights into the effectiveness of the key components of the model architecture and progressive three-stage training strategy.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2501.02298</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>stat:stat:ML</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2501.02298</id>
+        <created>2026-10-02</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Gentiloni-Silveri</keyname>
+                        <forenames>Marta</forenames>
+                </author>
+                <author>
+                    <keyname>Ocello</keyname>
+                        <forenames>Antonio</forenames>
+                </author>
+        </authors>
+        <title>Beyond Log-Concavity and Score Regularity: Improved Convergence Bounds for Score-Based Generative Models in W2-distance</title>
+            <categories>stat.ML cs.LG</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Score-based Generative Models (SGMs) aim to sample from a target distribution by learning score functions using samples perturbed by Gaussian noise. Existing convergence bounds for SGMs in the W2-distance rely on stringent assumptions about the data distribution. In this work, we present a novel framework for analyzing W2-convergence in SGMs, significantly relaxing traditional assumptions such as log-concavity and score regularity. Leveraging the regularization properties of the Ornstein--Uhlenbeck (OU) process, we show that weak log-concavity of the data distribution evolves into log-concavity over time. This transition is rigorously quantified through a PDE-based analysis of the Hamilton--Jacobi--Bellman equation governing the log-density of the forward process. Moreover, we establish that the drift of the time-reversed OU process alternates between contractive and non-contractive regimes, reflecting the dynamics of concavity. Our approach circumvents the need for stringent regularity conditions on the score function and its estimators, relying instead on milder, more practical assumptions. We demonstrate the wide applicability of this framework through explicit computations on Gaussian mixture models, illustrating its versatility and potential for broader classes of data distributions.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2501.06043</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:AR</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2501.06043</id>
+        <created>2025-01-10</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Nayan</keyname>
+                        <forenames>Md Mizanur Rahaman</forenames>
+                </author>
+                <author>
+                    <keyname>Raj</keyname>
+                        <forenames>Ritik</forenames>
+                </author>
+                <author>
+                    <keyname>Shaik</keyname>
+                        <forenames>Gouse Basha</forenames>
+                </author>
+                <author>
+                    <keyname>Krishna</keyname>
+                        <forenames>Tushar</forenames>
+                </author>
+                <author>
+                    <keyname>Naeemi</keyname>
+                        <forenames>Azad J</forenames>
+                </author>
+        </authors>
+        <title>Axon: A novel systolic array architecture for improved run time and energy efficient GeMM and Conv operation with on-chip im2col</title>
+            <categories>cs.AR</categories>
+            <comments>Accepted for Design Automation and Test in Europe (DATE), 2025. This is preprint of the accepted version</comments>
+            <journal-ref>Design Automation and Test in Europe (DATE), 2025</journal-ref>
+            <doi>10.23919/DATE64628.2025.10992860</doi>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>General matrix multiplication (GeMM) is a core operation in virtually all AI applications. Systolic array (SA) based architectures have shown great promise as GeMM hardware accelerators thanks to their speed and energy efficiency. Unfortunately, SAs incur a linear delay in filling the operands, due to unidirectional propagation via pipeline latches. In this work, we propose a novel in-array data orchestration technique in SAs where we enable data feeding on the principal diagonal followed by bi-directional propagation. This improves the runtime by up to 2X at minimal hardware overhead. In addition, the proposed data orchestration enables convolution lowering (known as im2col) using a simple hardware support to fully exploit input feature map reuse opportunity and significantly lower the off-chip memory traffic resulting in 1.2X throughput improvement and 2.17X inference energy reduction during YOLOv3 and RESNET50 workload on average. In contrast, conventional data orchestration would require more elaborate hardware and control signals to implement im2col in hardware because of the data skew. We have synthesized and conducted place and route for 16X16 systolic arrays based on the novel and conventional orchestrations using ASAP 7nm PDK and found that our proposed approach results in 0.211% area and 1.6% power overheads.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2501.09239</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2501.09239</id>
+        <created>2025-01-16</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Chuo Jun</forenames>
+                </author>
+                <author>
+                    <keyname>Gill</keyname>
+                        <forenames>Asif Q.</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Bo</forenames>
+                </author>
+                <author>
+                    <keyname>Anwar</keyname>
+                        <forenames>Memoona J.</forenames>
+                </author>
+        </authors>
+        <title>AI-based Identity Fraud Detection: A Systematic Review</title>
+            <categories>cs.AI</categories>
+            <doi>10.1080/08839514.2026.2731995</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>With the rapid development of digital services, a large volume of personally identifiable information (PII) is stored online and is subject to cyberattacks such as Identity fraud. Most recently, the use of Artificial Intelligence (AI) enabled deep fake technologies has significantly increased the complexity of identity fraud. Fraudsters may use these technologies to create highly sophisticated counterfeit personal identification documents, photos and videos. These advancements in the identity fraud landscape pose challenges for identity fraud detection and society at large. There is a pressing need to review and understand identity fraud detection methods, their limitations and potential solutions. This research aims to address this important need by using the well-known systematic literature review method. This paper reviewed a selected set of 43 papers across 4 major academic literature databases. In particular, the review results highlight the two types of identity fraud prevention and detection methods, in-depth and open challenges. The results were also consolidated into a taxonomy of AI-based identity fraud detection and prevention methods including key insights and trends. Overall, this paper provides a foundational knowledge base to researchers and practitioners for further research and development in this important area of digital identity fraud.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2502.03979</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:SD</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>eess:eess:AS</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2502.03979</id>
+        <created>2026-10-02</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Kang</keyname>
+                        <forenames>Jaeyong</forenames>
+                </author>
+                <author>
+                    <keyname>Herremans</keyname>
+                        <forenames>Dorien</forenames>
+                </author>
+        </authors>
+        <title>Towards Unified Music Emotion Recognition across Dimensional and Categorical Models</title>
+            <categories>cs.SD cs.AI eess.AS</categories>
+            <msc-class>68T07 (Primary) 68T10, 68T05, 00A65 (Secondary)</msc-class>
+            <acm-class>68T07 (Primary) 68T10, 68T05, 00A65 (Secondary)</acm-class>
+            <journal-ref>Proceedings of ICPR, 2026, Lyon, France</journal-ref>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>One of the most significant challenges in Music Emotion Recognition (MER) comes from the fact that emotion labels can be heterogeneous across datasets with regard to the emotion representation, including categorical (e.g., happy, sad) versus dimensional labels (e.g., valence-arousal). In this paper, we present a unified multitask learning framework that combines these two types of labels and is thus able to be trained on multiple datasets. This framework uses an effective input representation that combines musical features (i.e., key and chords) and MERT embeddings. Moreover, knowledge distillation is employed to transfer the knowledge of teacher models trained on individual datasets to a student model, enhancing its ability to generalize across multiple tasks. To validate our proposed framework, we conducted extensive experiments on a variety of datasets, including MTG-Jamendo, DEAM, PMEmo, and EmoMusic. According to our experimental results, the inclusion of musical features, multitask learning, and knowledge distillation significantly enhances performance. In particular, our model outperforms the state-of-the-art models, including the best-performing model from the MediaEval 2021 competition on the MTG-Jamendo dataset. Our work makes a significant contribution to MER by allowing the combination of categorical and dimensional emotion labels in one unified framework, thus enabling training across datasets.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2502.05073</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>math:math:PR</setSpec>
+            <setSpec>cs:cs:CC</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>math:math:CO</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2502.05073</id>
+        <created>2026-10-01</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Rupert</forenames>
+                </author>
+                <author>
+                    <keyname>Mossel</keyname>
+                        <forenames>Elchanan</forenames>
+                </author>
+        </authors>
+        <title>Noise Sensitivity and Learning Lower Bounds for Hierarchical Functions</title>
+            <categories>math.PR cs.CC cs.LG math.CO</categories>
+            <comments>23 pages</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Recent works explore deep learning&#39;s success by examining functions or data with hierarchical structure. To study the learning complexity of functions with hierarchical structure, we study the noise stability of functions with tree hierarchical structure on independent inputs. We show that if each function in the hierarchy is $\varepsilon$-far from linear, the noise stability is exponentially small in the depth of the hierarchy.
+  Our results have immediate applications for agnostic learning. In the Boolean setting using the results of Dachman-Soled, Feldman, Tan, Wan and Wimmer (2014), our results provide Statistical Query super-polynomial lower bounds for agnostically learning classes that are based on hierarchical functions.
+  We also derive similar SQ lower bounds based on the indicators of crossing events in critical site percolation. These crossing events are not formally hierarchical as we define but still have some hierarchical features as studied in mathematical physics.
+  Using the results of Abbe, Bengio, Cornacchiam, Kleinberg, Lotfi, Raghu and Zhang (2022), our results imply sample complexity lower bounds for learning hierarchical functions with gradient descent on fully connected neural networks.
+  Finally in the Gaussian setting, using the results of Diakonikolas, Kane, Pittas and Zarifis (2021), our results provide super-polynomial lower bounds for agnostic SQ learning.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2502.06342</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:CL</setSpec>
+            <setSpec>physics:physics:soc-ph</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2502.06342</id>
+        <created>2026-01-22</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Ferrer-i-Cancho</keyname>
+                        <forenames>Ramon</forenames>
+                </author>
+        </authors>
+        <title>The exponential distribution of the order of demonstrative, numeral, adjective and noun</title>
+            <categories>cs.CL physics.soc-ph</categories>
+            <comments>minor corrections (typos and English errors)</comments>
+            <doi>10.1080/09296174.2026.2617705</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>The frequency of the preferred order for a noun phrase formed by demonstrative, numeral, adjective and noun has received significant attention over the last two decades. We investigate the actual distribution of the 24 possible orders. There is no consensus on whether it is well-fitted by an exponential or a power law distribution. We find that an exponential distribution is a much better model. This finding and other circumstances where an exponential-like distribution is found challenge the view that power-law distributions, e.g., Zipf&#39;s law for word frequencies, are inevitable. We also investigate which of two exponential distributions gives a better fit: an exponential model where the 24 orders have non-zero probability (a geometric distribution truncated at rank 24) or an exponential model where the number of orders that can have non-zero probability is variable (a right-truncated geometric distribution). When consistency and generalizability are prioritized, we find higher support for the exponential model where all 24 orders have non-zero probability. These findings strongly suggest that there is no hard constraint on word order variation and then unattested orders merely result from undersampling, consistently with Cysouw&#39;s view.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2503.08530</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:LO</setSpec>
+            <setSpec>cs:cs:PL</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2503.08530</id>
+        <created>2026-10-02</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Carbone</keyname>
+                        <forenames>Marco</forenames>
+                </author>
+                <author>
+                    <keyname>Veschetti</keyname>
+                        <forenames>Adele</forenames>
+                </author>
+        </authors>
+        <title>A Probabilistic Choreography Language for PRISM</title>
+            <categories>cs.LO cs.PL</categories>
+            <proxy>LMCS</proxy>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>We present a choreographic framework for modelling and
+
+analysing concurrent probabilistic systems based on the PRISM
+
+model-checker. This is achieved through the development of a
+
+choreography language, which is a specification language that allows
+
+to describe the desired interactions within a concurrent system from
+
+a global viewpoint. Using choreographies gives a clear and complete
+
+view of system interactions, making it easier to understand the
+
+process flow and identify potential errors, which helps ensure
+
+correct execution and improves system reliability. We equip our
+
+language with a probabilistic semantics and then define a formal
+
+encoding into the PRISM language and discuss its
+
+correctness. Properties of programs written in our choreographic
+
+language can be model-checked by the PRISM model-checker via their
+
+translation into the PRISM language. Finally, we implement a
+
+compiler for our language and demonstrate its practical
+
+applicability via examples drawn from the use cases featured in the
+
+PRISM website.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2504.02204</identifier>
+        <datestamp>2026-10-05</datestamp>
+            <setSpec>cs:cs:HC</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2504.02204</id>
+        <created>2026-10-02</created>
+            <updated>2026-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Ma</keyname>
+                        <forenames>Tianwei</forenames>
+                </author>
+                <author>
+                    <keyname>Ara</keyname>
+                        <forenames>Zinat</forenames>
+                </author>
+                <author>
+                    <keyname>Khan</keyname>
+                        <forenames>Safwat Ali</forenames>
+                </author>
+                <author>
+                    <keyname>Chevalier</keyname>
+                        <forenames>Fanny</forenames>
+                </author>
+                <author>
+                    <keyname>Elmqvist</keyname>
+                        <forenames>Niklas</forenames>
+                </author>
+                <author>
+                    <keyname>Hoque</keyname>
+                        <forenames>Naimul</forenames>
+                </author>
+        </authors>
+        <title>Characterizing Creativity in Data Visualization: Reflections and Future Directions</title>
+            <categories>cs.HC</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Creativity is valued in data visualization design and research, yet how it manifests remains unclear. Understanding creativity is essential for developing expressive visualization tools and representations. In this paper, we present two complementary studies to characterize creativity in data visualization. First, a systematic review of 104 papers yields a design space spanning four themes: design frameworks incorporating divergent and convergent thinking activities; creative representations developing unorthodox visualizations; visualization-enabled creativity support tools supporting creative tasks (e.g., writing); and understanding creativity, creative processes, and influencing factors. Second, qualitative interviews with 11 visualization practitioners and researchers explore practical challenges and contrast them with current academic framing through our design space. Findings indicate that artifacts or final products are often disproportionately considered as the primary indicator of creativity, whereas the design process remains undervalued in practical. We conclude by presenting a definition of creativity in data visualization and directions for future research.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:0811.0186</identifier>
+        <datestamp>2011-01-03</datestamp>
+            <setSpec>physics:math-ph</setSpec>
+            <setSpec>math:math:MP</setSpec>
+            <setSpec>physics:hep-th</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>0811.0186</id>
+        <created>2008-11-03</created>
+            <updated>2011-01-03</updated>
+        <authors>
+                <author>
+                    <keyname>Krajewski</keyname>
+                        <forenames>T.</forenames>
+                </author>
+                <author>
+                    <keyname>Rivasseau</keyname>
+                        <forenames>V.</forenames>
+                </author>
+                <author>
+                    <keyname>Tanasa</keyname>
+                        <forenames>A.</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Zhituo</forenames>
+                </author>
+        </authors>
+        <title>Topological Graph Polynomials and Quantum Field Theory, Part I: Heat Kernel Theories</title>
+            <categories>math-ph hep-th math.MP</categories>
+            <comments>61 pages, 12 figures</comments>
+            <report-no>LPT ORSAY 08-87</report-no>
+            <journal-ref>J.Noncommut.Geom.4:29-82,2010</journal-ref>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>  We investigate the relationship between the universal topological polynomials for graphs in mathematics and the parametric representation of Feynman amplitudes in quantum field theory. In this first paper we consider translation invariant theories with the usual heat-kernel-based propagator. We show how the Symanzik polynomials of quantum field theory are particular multivariate versions of the Tutte polynomial, and how the new polynomials of noncommutative quantum field theory are particular versions of the Bollobás-Riordan polynomials.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record><header status="deleted"><identifier>oai:arXiv.org:2610.99999</identifier><datestamp>2026-10-05</datestamp><setSpec>cs:cs:CL</setSpec></header></record>
+
+                    <resumptionToken expirationDate='2026-10-08T00:00:00Z'>verb%3DListRecords%26metadataPrefix%3DarXiv%26from%3D2026-10-05%26set%3Dcs%26skip%3D1300</resumptionToken>
+
+    </ListRecords>
+</OAI-PMH>

@@ -1,0 +1,23 @@
+[project]
+name = "arxivdb"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "bm25s>=0.3",
+    "numpy",
+    "PyStemmer",
+    "scipy",
+]
+
+[project.scripts]
+arxivdb = "arxivdb.cli:main"
+
+[dependency-groups]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["arxivdb"]
