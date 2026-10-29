@@ -1,0 +1,16 @@
+#!/bin/sh
+git diff --quiet ORIG_HEAD HEAD -- data && exit 0
+pgrep -f "arxivdb [b]uild|index.[b]uild" >/dev/null && exit 0
+cd "$(git rev-parse --show-toplevel)"
+backend=$(sed -n 's/.*"backend": "\([a-z0-9]*\)".*/\1/p' index/meta.json 2>/dev/null)
+sqlite=$([ -f index/sqlite/meta.json ] && echo yes)
+[ -n "$backend$sqlite" ] || exit 0
+py=python3
+[ -x .venv/bin/python ] && py=.venv/bin/python
+log=logs/$(date +%Y%m%d-%H%M%S)-build
+mkdir -p "$log"
+nohup sh -c '
+  if [ -n "$2" ]; then "$1" -m arxivdb build --backend "$2" > "$4/index.out" 2> "$4/index.err"; fi
+  if [ -n "$3" ]; then "$1" -c "from arxivdb import index; index.build(backend=\"sqlite\", index_dir=\"index/sqlite\")" > "$4/sqlite.out" 2> "$4/sqlite.err"; fi
+' sh "$py" "$backend" "$sqlite" "$log" > /dev/null 2>&1 &
+echo "post-merge: rebuilding the search indexes in the background, log in $log"
